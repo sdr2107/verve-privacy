@@ -106,7 +106,7 @@
 <body>
 
   <h1>Verve &mdash; Privacy Policy</h1>
-  <p class="subtitle">Effective date: March 6, 2026 &middot; Last updated: September 19, 2026</p>
+  <p class="subtitle">Effective date: March 6, 2026 &middot; Last updated: September 20, 2026</p>
 
   <h2>Overview</h2>
   <p>Verve ("the App") is a cardiorespiratory fitness tracker designed with privacy as a core principle. Your health and fitness data is stored locally on your device by default. Cloud features (sync, AI&nbsp;Coach) are optional and require your explicit consent.</p>
@@ -209,9 +209,10 @@
       <tr><td>Apple</td><td>HealthKit, Sign-In, App Store</td><td>Per Apple's privacy policies</td></tr>
       <tr><td>GitHub</td><td>Hosts the Website</td><td>Visitor IP addresses in GitHub's logs, for security, under GitHub's privacy statement; Verve does not receive them</td></tr>
       <tr><td>Substack</td><td>Sends the newsletter</td><td>Your email address, if you subscribe</td></tr>
+      <tr><td>Tenjin</td><td>Ad attribution: which ads bring people to the App</td><td>Advertising identifier only if you allow tracking; vendor identifier, IP address, device details; four events (sign-up, trial start, subscription, fitness test completed)</td></tr>
     </tbody>
   </table>
-  <p>We do not use analytics, advertising, or tracking SDKs.</p>
+  <p>Verve uses one attribution SDK, Tenjin, to learn which advertisements bring people to the App. On iOS the App first asks your permission through Apple's tracking prompt. If you allow it, Tenjin receives your device's advertising identifier (IDFA), the vendor identifier, your IP address and coarse device details, and four events: sign-up, trial start, subscription, and a completed fitness test (the test's METs only). If you decline, the advertising identifier is never read, and Apple's SKAdNetwork reports the install to Tenjin in aggregate, with nothing that identifies you. No health data is sent to Tenjin. RevenueCat is told Tenjin's installation identifier so that subscription events can be matched to the install. We use no other analytics or advertising SDKs.</p>
 
   <h2>Data Retention</h2>
   <ul>
